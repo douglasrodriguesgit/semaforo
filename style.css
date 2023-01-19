@@ -1,0 +1,41 @@
+body,
+section,
+button,
+main {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btns button {
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  width: 100px;
+  color: #000;
+}
+
+#red {
+  background: #e80a00;
+}
+
+#yellow {
+  background: #f5d600;
+}
+
+#green {
+  background: #06e006;
+}
+
+#automatic {
+  background: #2591f1;
+}
